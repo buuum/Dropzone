@@ -37,7 +37,7 @@ Dropzone = (function() {
         file.on('change', function(e) {
           _this.files[element.data('pos')] = e.target.files;
           if (_this.options.autoUpload) {
-            return _this.submit(box, e.target.files);
+            return _this.submit(element, e.target.files);
           }
         });
         return _this.initDrag(element);
