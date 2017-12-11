@@ -1,0 +1,19 @@
+{
+  "name": "Dropzone",
+  "homepage": "https://github.com/buuum/Dropzone",
+  "description": "Simple js upload drop area",
+  "main": [
+    "dropzone/js/ajaxqueu.js",
+    "dropzone/js/dropzone.min.js"
+  ],
+  "keywords": [
+    "upload"
+  ],
+  "authors": [
+    "buuum"
+  ],
+  "dependencies": {
+    "jquery": ">=1.7"
+  },
+  "license": "MIT"
+}
