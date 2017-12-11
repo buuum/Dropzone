@@ -35,7 +35,10 @@ Dropzone = (function() {
         });
         element.data('pos', i);
         file.on('change', function(e) {
-          return _this.files[element.data('pos')] = e.target.files;
+          _this.files[element.data('pos')] = e.target.files;
+          if (_this.options.autoUpload) {
+            return _this.submit(box, e.target.files);
+          }
         });
         return _this.initDrag(element);
       };
