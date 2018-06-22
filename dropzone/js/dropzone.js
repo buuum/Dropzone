@@ -35,6 +35,10 @@ Dropzone = (function() {
         });
         element.data('pos', i);
         file.on('change', function(e) {
+          var droppedFiles;
+          console.log('change');
+          droppedFiles = $(e.currentTarget).prop("files");
+          _this.options.onSelectFiles(droppedFiles, element);
           _this.files[element.data('pos')] = e.target.files;
           if (_this.options.autoUpload) {
             return _this.submit(element, e.target.files);

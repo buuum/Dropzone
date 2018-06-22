@@ -1,0 +1,30 @@
+{
+  "name": "dropzonebuuum",
+  "version": "0.0.1",
+  "description": "Dropzone - Simple jquery upload file ======================================",
+  "author": "alf82",
+  "license": "UNLICENSED",
+  "private": false,
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-coffee": "^0.13.0",
+    "grunt-contrib-cssmin": "^0.14.0",
+    "grunt-contrib-uglify": "^0.11.0",
+    "grunt-contrib-compass": "^1.0.4",
+    "grunt-contrib-concat": "~0.5.1"
+  },
+  "main": "dropzone/js/",
+  "dependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buuum/Dropzone.git"
+  },
+  "bugs": {
+    "url": "https://github.com/buuum/Dropzone/issues"
+  },
+  "homepage": "https://github.com/buuum/Dropzone#readme"
+}

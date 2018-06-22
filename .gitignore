@@ -1,6 +1,5 @@
 /src
 /node_modules
-package.json
 Gruntfile.coffee
 /.sass-cache
 .idea
